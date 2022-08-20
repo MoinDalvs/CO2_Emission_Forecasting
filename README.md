@@ -22,7 +22,6 @@ Name | 💌Email Adress |
 
 ![image](https://user-images.githubusercontent.com/99672298/185760407-a7c5bd77-1e67-4543-b698-cdb3ec3643d4.png)
 ![image](https://user-images.githubusercontent.com/99672298/185760426-daf2cfc4-68ea-45bf-a583-0eae58e69648.png)
-![image](https://user-images.githubusercontent.com/99672298/185760442-a9e55524-7e50-4f10-a319-214edfc89324.png)
 ![image](https://user-images.githubusercontent.com/99672298/185760443-f456bc3f-e72c-4e50-a21b-bfe7094fdfe3.png)
 ![image](https://user-images.githubusercontent.com/99672298/185760450-90101951-214f-46ac-9ce9-38ebd92b606a.png)
 ![image](https://user-images.githubusercontent.com/99672298/185760454-8a0c9aba-19dd-40ad-b71e-aa3c3a223b53.png)
