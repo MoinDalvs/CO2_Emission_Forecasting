@@ -1,4 +1,4 @@
-# Forecasting App [![Open in Streamlit](http://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://moindalvs-co2-emission-forecasting-github-co2-deployment-8pf1ce.streamlitapp.com/) 👈 Click here to launch the App.
+# Forecasting App [![Open in Streamlit](https://moindalvs-co2-emission-forecasting-github-deployment-6cjelw.streamlitapp.com/) 👈 Click here to launch the App.
 
 # CO2_Emission_Forecasting
 ## P-140 Air Quality forecasting(CO2 emissions)   
