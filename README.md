@@ -18,7 +18,7 @@ Better accuracy in short-term forecasting is required for intermediate planning 
 ### **Contact me by**
 Name | 💌Email Adress |
 | --- | --- |
-| **Moin Dalvi** | (moindalvs@gmail.com) |
+| **Moin Dalvi** | moindalvs@gmail.com |
 
 ![image](https://user-images.githubusercontent.com/99672298/185760407-a7c5bd77-1e67-4543-b698-cdb3ec3643d4.png)
 ![image](https://user-images.githubusercontent.com/99672298/185760426-daf2cfc4-68ea-45bf-a583-0eae58e69648.png)
