@@ -1,4 +1,4 @@
-﻿matplotlib-venn==0.11.7
+matplotlib-venn==0.11.7
 numpy==1.22.4
 pandas-visual-analysis==0.0.4
 pickle4==0.0.1
