@@ -8,7 +8,6 @@ import matplotlib.pyplot as plt
 from matplotlib import pyplot
 from pickle import load
 from io import BytesIO
-import pickle
 import requests
 import calendar
 import plotly.io as pio
@@ -29,16 +28,16 @@ for percent_complete in range(100):
 
 # load the model from the disk
 mfile = BytesIO(requests.get('https://github.com/MoinDalvs/CO2_Emission_Forecasting/blob/main/CO2_Forecast_arima_yearly.pkl?raw=true').content)
-yearly_model = pickle.load(mfile)
+yearly_model = load(mfile)
 
 mfile1 = BytesIO(requests.get('https://github.com/MoinDalvs/CO2_Emission_Forecasting/blob/main/CO2_Forecast_arima_monthly.pkl?raw=true').content)
-monthly_model = pickle.load(mfile1)
+monthly_model = load(mfile1)
 
 mfile2 = BytesIO(requests.get('https://github.com/MoinDalvs/CO2_Emission_Forecasting/blob/main/yearly_train_arima.pkl?raw=true').content)
-yearly_model_test = load(open('C:/Users/Moin Dalvi/Data_Science/Projects/Air Quality CO2 Forecasting/yearly_train_arima.pkl', 'rb'))
+yearly_model_test = load(mfile2)
 
 mfile13 = BytesIO(requests.get('https://github.com/MoinDalvs/CO2_Emission_Forecasting/blob/main/monthly_train_arima.pkl?raw=true').content)
-monthly_model_test = load(open('C:/Users/Moin Dalvi/Data_Science/Projects/Air Quality CO2 Forecasting/monthly_train_arima.pkl', 'rb'))
+monthly_model_test = load(mfile13)
 
 # load the data from the disk
 
