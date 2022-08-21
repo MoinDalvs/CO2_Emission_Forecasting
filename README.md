@@ -13,7 +13,7 @@ Better accuracy in short-term forecasting is required for intermediate planning 
 + 1.) Minimum error 
 + 2.) Low bias and low variance trade off
 
-### </br>This project is part of Data Science internship in [AiVariant](https://aivariant.com/)
+### </br>This project is part of Data Science internship at [AiVariant](https://aivariant.com/)
 
 ### **Contact me by**
 Name | 💌Email Adress |
