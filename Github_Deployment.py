@@ -551,7 +551,7 @@ if nav == "Model Evaluation":
 if nav == "Yearly Forecasting":
     st.title("Forecasting $CO_2$ Emission Yearly")
     
-    st.subheader(f"Note: For Different Results Select different Year from the left sidebar")
+    st.write(f"Note: For Different Results Select different Year from the left sidebar")
     st.sidebar.subheader("Select the Year to Forecast from 2015")
     years = st.sidebar.slider("",2015,2026,step = 1)
 
@@ -609,7 +609,7 @@ if nav == "Yearly Forecasting":
 if nav == "Monthly Forecasting":
     st.title("Forecasting $CO_2$ Emission Monthly")
     
-    st.subheader(f"Note: For Different Results Select different Month from the left sidebar")
+    st.write(f"Note: For Different Results Select different Month from the left sidebar")
     st.sidebar.subheader("Select the Month to Forecast from 2014 February")
     drop = st.sidebar.selectbox('', ['Feb 2014','Mar 2014','Apr 2014','May 2014','Jun 2014','Jul 2014','Aug 2014','Sep 2014','Oct 2014','Nov 2014','Dec 2014',
                                      'Jan 2015','Feb 2015','Mar 2015','Apr 2015','May 2015','Jun 2015','Jul 2015','Aug 2015','Sep 2015','Oct 2015','Nov 2015','Dec 2015',
