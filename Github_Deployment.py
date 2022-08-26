@@ -603,12 +603,10 @@ if nav == "Yearly Forecasting":
     elif lists == 2026:
        year = 12
 
-
     st.sidebar.subheader("To Forecast till the Selected Years\n Please Click on the 'Forecast' Button")
     
     with st.spinner('Wait for it...'):
        time.sleep(3)
-       st.success('Done!')
     
     pred_yearly = pd.DataFrame()
     pred_yearly['CO2 Emission'] = yearly_model.forecast(year)
@@ -878,7 +876,6 @@ if nav == "Monthly Forecasting":
 
     with st.spinner('Wait for it...'):
        time.sleep(3)
-       st.success('Done!')
    
     if st.sidebar.button("Forecast"):
        st.sidebar.write(f"$CO_2$ Emission for {drop}")
