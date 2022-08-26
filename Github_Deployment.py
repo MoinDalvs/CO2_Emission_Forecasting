@@ -67,11 +67,11 @@ Better accuracy in short-term forecasting is required for intermediate planning 
 + 1.) Minimum error\n\
 + 2.) Low bias and low variance trade off')
 
-   my_bar = st.progress(0)
+    my_bar = st.progress(0)
 
-   for percent_complete in range(100):
-      time.sleep(0.1)
-      my_bar.progress(percent_complete + 1)
+    for percent_complete in range(100):
+       time.sleep(0.1)
+       my_bar.progress(percent_complete + 1)
 
 if nav == "Time Series Analysis":
     
