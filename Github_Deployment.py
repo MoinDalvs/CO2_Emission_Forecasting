@@ -77,8 +77,8 @@ if nav == 'About Project':
 \
 #### Exponential techniques, Linear statistical modeling and Autoregressive models are used to forecast the emissions and the best model will be selected on these basis\n\
 \
-+ + 1.) Minimum error\n\
-+ + 2.) Low bias and low variance trade off')
+#### + 1.) Minimum error\n\
+#### + 2.) Low bias and low variance trade off')
 
 if nav == "Time Series Analysis":
 
