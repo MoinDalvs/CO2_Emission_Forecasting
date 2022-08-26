@@ -20,12 +20,6 @@ from statsmodels.tsa.seasonal import seasonal_decompose
 st.set_option('deprecation.showPyplotGlobalUse', False)
 import time
 
-my_bar = st.progress(0)
-
-for percent_complete in range(100):
-     time.sleep(0.02)
-     my_bar.progress(percent_complete + 1)
-
 # load the model from the disk
 mfile = BytesIO(requests.get('https://github.com/MoinDalvs/CO2_Emission_Forecasting/blob/main/CO2_Forecast_arima_yearly.pkl?raw=true').content)
 yearly_model = load(mfile)
@@ -72,6 +66,12 @@ Each step taken like EDA, Feature Engineering, Model Building,  Model Evaluation
 Better accuracy in short-term forecasting is required for intermediate planning for the target to reduce CO2 emissions. High stake climate change conventions need accurate predictions of the future emission growth path of the participating organization to make informed decisions.\n Exponential techniques, Linear statistical modeling and Autoregressive models are used to forecast the emissions and the best model will be selected on these basis\n\
 + 1.) Minimum error\n\
 + 2.) Low bias and low variance trade off')
+
+   my_bar = st.progress(0)
+
+   for percent_complete in range(100):
+      time.sleep(0.1)
+      my_bar.progress(percent_complete + 1)
 
 if nav == "Time Series Analysis":
     
