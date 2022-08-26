@@ -602,31 +602,27 @@ if nav == "Yearly Forecasting":
        year = 11
     elif lists == 2026:
        year = 12
-
-    st.sidebar.subheader("To Forecast till the Selected Years\n Please Click on the 'Forecast' Button")
     
     with st.spinner('Wait for it...'):
-       time.sleep(3)
+       time.sleep(2)
     
     pred_yearly = pd.DataFrame()
     pred_yearly['CO2 Emission'] = yearly_model.forecast(year)
       
+    st.sidebar.subheader(f"$CO_2$ Emission for the Year {lists}")
+    st.sidebar.write(pred_yearly[-1:])
+    st.write(f"$CO_2$ Emission Forecasted till the year {lists}" ) 
 
-    if st.sidebar.button("Forecast"):
-       st.sidebar.subheader(f"$CO_2$ Emission for the Year {lists}")
-       st.sidebar.write(pred_yearly[-1:])
-       st.write(f"$CO_2$ Emission Forecasted till the year {lists}" ) 
+    fig = go.Figure()
+    fig.add_trace(go.Scatter(x=pred_yearly.index,y=pred_yearly['CO2 Emission']))
 
-       fig = go.Figure()
-       fig.add_trace(go.Scatter(x=pred_yearly.index,y=pred_yearly['CO2 Emission']))
-
-       col1, col2 = st.columns(2)
-       with col1:
-        col1.write(f'Forecasted Data')
-        col1.write(pred_yearly)
-       with col2:
-        col2.write(f"Interactive Line plot Forecasting for the next {year} Years")
-        col2.plotly_chart(fig)
+    col1, col2 = st.columns(2)
+    with col1:
+       col1.write(f'Forecasted Data')
+       col1.write(pred_yearly)
+    with col2:
+       col2.write(f"Interactive Line plot Forecasting for the next {year} Years")
+       col2.plotly_chart(fig)
 
 
 if nav == "Monthly Forecasting":
@@ -875,7 +871,7 @@ if nav == "Monthly Forecasting":
     pred_monthly['CO2 Emission'] = monthly_model.forecast(months)
 
     with st.spinner('Wait for it...'):
-       time.sleep(3)
+       time.sleep(2)
    
     if st.sidebar.button("Forecast"):
        st.sidebar.write(f"$CO_2$ Emission for {drop}")
