@@ -606,6 +606,9 @@ if nav == "Yearly Forecasting":
 
     st.sidebar.subheader("To Forecast till the Selected Years\n Please Click on the 'Forecast' Button")
     
+    with st.spinner('Wait for it...'):
+       time.sleep(3)
+       st.success('Done!')
     
     pred_yearly = pd.DataFrame()
     pred_yearly['CO2 Emission'] = yearly_model.forecast(year)
@@ -868,14 +871,13 @@ if nav == "Monthly Forecasting":
     elif drop == 'Jan 2023':
        months = 108
     
-
     st.sidebar.subheader("To Forecast till the Selected Months\n Please Click on the 'Forecast' Button")
     
     pred_monthly = pd.DataFrame()
     pred_monthly['CO2 Emission'] = monthly_model.forecast(months)
 
     with st.spinner('Wait for it...'):
-       time.sleep(5)
+       time.sleep(3)
        st.success('Done!')
    
     if st.sidebar.button("Forecast"):
