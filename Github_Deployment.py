@@ -564,6 +564,13 @@ if nav == "Model Evaluation":
         st.write(f'Note: No option has been selected')
 
 if nav == "Yearly Forecasting":
+
+    my_bar = st.progress(0)
+
+    for percent_complete in range(100):
+       time.sleep(0.01)
+       my_bar.progress(percent_complete + 1)
+
     st.title("Forecasting $CO_2$ Emission Yearly")
     
     st.write(f"Note: For Different Results Select different Year from the left sidebar")
@@ -622,6 +629,12 @@ if nav == "Yearly Forecasting":
 
 
 if nav == "Monthly Forecasting":
+
+    my_bar = st.progress(0)
+
+    for percent_complete in range(100):
+       time.sleep(0.01)
+       
     st.title("Forecasting $CO_2$ Emission Monthly")
     
     st.write(f"Note: For Different Results Select different Month from the left sidebar")
