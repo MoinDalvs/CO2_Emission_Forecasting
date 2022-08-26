@@ -53,6 +53,13 @@ st.sidebar.subheader("Select one of the 'Options' below")
 nav = st.sidebar.radio("",['About Project',"Time Series Analysis","Model Evaluation","Yearly Forecasting", "Monthly Forecasting"])
 
 if nav == 'About Project':
+
+    my_bar = st.progress(0)
+
+    for percent_complete in range(100):
+       time.sleep(0.1)
+       my_bar.progress(percent_complete + 1)
+       
     st.header(f"Business Objective: To Forecast CO2 levels for an organization so that the organization can follow government norms with respects to CO2 emission levels.")
 
     st.write(f"Note: Select other options from the left sidebar")
@@ -67,11 +74,7 @@ Better accuracy in short-term forecasting is required for intermediate planning 
 + 1.) Minimum error\n\
 + 2.) Low bias and low variance trade off')
 
-    my_bar = st.progress(0)
-
-    for percent_complete in range(100):
-       time.sleep(0.1)
-       my_bar.progress(percent_complete + 1)
+    
 
 if nav == "Time Series Analysis":
     
