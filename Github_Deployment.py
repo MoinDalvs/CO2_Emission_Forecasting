@@ -313,7 +313,7 @@ if nav == "Model Evaluation":
 
     st.title("Model Evaluation")
     st.subheader(f"Select the Model")
-    radios = st.radio("",["None","Yearly Model","Monthly Model"])
+    radios = st.radio("",["Yearly Model","Monthly Model"])
     
     if radios == "Yearly Model":
         
@@ -557,9 +557,6 @@ if nav == "Model Evaluation":
               
             # Displaying Chart
             st.pyplot()
-
-    elif radios == 'None':
-        st.write(f'Note: No option has been selected')
 
 if nav == "Yearly Forecasting":
 
