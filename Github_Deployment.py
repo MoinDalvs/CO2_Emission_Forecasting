@@ -57,7 +57,7 @@ if nav == 'About Project':
     my_bar = st.progress(0)
 
     for percent_complete in range(100):
-       time.sleep(0.07)
+       time.sleep(0.05)
        my_bar.progress(percent_complete + 1)
 
     st.header(f"Business Objective: To Forecast CO2 levels for an organization so that the organization can follow government norms with respects to CO2 emission levels.")
@@ -81,7 +81,7 @@ if nav == "Time Series Analysis":
     my_bar = st.progress(0)
 
     for percent_complete in range(100):
-       time.sleep(0.1)
+       time.sleep(0.08)
        my_bar.progress(percent_complete + 1)
     
     st.title("Time Series Analysis")
@@ -305,6 +305,12 @@ if nav == "Time Series Analysis":
         st.write('Note: "None" is selected')
 
 if nav == "Model Evaluation":
+    
+    my_bar = st.progress(0)
+
+    for percent_complete in range(100):
+       time.sleep(0.08)
+       my_bar.progress(percent_complete + 1)
     
 
     st.title("Model Evaluation")
