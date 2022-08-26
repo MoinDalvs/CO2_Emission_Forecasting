@@ -57,7 +57,7 @@ if nav == 'About Project':
     my_bar = st.progress(0)
 
     for percent_complete in range(100):
-       time.sleep(0.04)
+       time.sleep(0.02)
        my_bar.progress(percent_complete + 1)
 
     st.header(f"Business Objective: To Forecast CO2 levels for an organization so that the organization can follow government norms with respects to CO2 emission levels.")
