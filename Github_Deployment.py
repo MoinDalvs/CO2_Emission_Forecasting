@@ -634,6 +634,7 @@ if nav == "Monthly Forecasting":
 
     for percent_complete in range(100):
        time.sleep(0.01)
+       my_bar.progress(percent_complete + 1)
 
     st.title("Forecasting $CO_2$ Emission Monthly")
     
@@ -870,11 +871,13 @@ if nav == "Monthly Forecasting":
 
     st.sidebar.subheader("To Forecast till the Selected Months\n Please Click on the 'Forecast' Button")
     
-    
     pred_monthly = pd.DataFrame()
     pred_monthly['CO2 Emission'] = monthly_model.forecast(months)
-    
 
+    with st.spinner('Wait for it...'):
+       time.sleep(5)
+       st.success('Done!')
+   
     if st.sidebar.button("Forecast"):
        st.sidebar.write(f"$CO_2$ Emission for {drop}")
        st.sidebar.write(pred_monthly[-1:])
