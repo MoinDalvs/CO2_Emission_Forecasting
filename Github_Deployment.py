@@ -865,26 +865,23 @@ if nav == "Monthly Forecasting":
     elif drop == 'Jan 2023':
        months = 108
     
-    st.sidebar.subheader("To Forecast till the Selected Months\n Please Click on the 'Forecast' Button")
-    
     pred_monthly = pd.DataFrame()
     pred_monthly['CO2 Emission'] = monthly_model.forecast(months)
 
     with st.spinner('Wait for it...'):
        time.sleep(2)
    
-    if st.sidebar.button("Forecast"):
-       st.sidebar.write(f"$CO_2$ Emission for {drop}")
-       st.sidebar.write(pred_monthly[-1:])
-       st.write(f"$CO_2$ Emission Forecasted till {drop}" )
+    st.sidebar.write(f"$CO_2$ Emission for {drop}")
+    st.sidebar.write(pred_monthly[-1:])
+    st.write(f"$CO_2$ Emission Forecasted till {drop}" )
        
-       fig = go.Figure()
-       fig.add_trace(go.Scatter(x=pred_monthly.index,y=pred_monthly['CO2 Emission']))
+    fig = go.Figure()
+    fig.add_trace(go.Scatter(x=pred_monthly.index,y=pred_monthly['CO2 Emission']))
 
-       col1, col2 = st.columns(2)
-       with col1:
-        col1.write(f'Forecasted Data')
-        col1.write(pred_monthly)
-       with col2:
-        col2.write(f"Interactive Line plot Forecasting for the next {months} Months")
-        col2.plotly_chart(fig)
+    col1, col2 = st.columns(2)
+    with col1:
+       col1.write(f'Forecasted Data')
+       col1.write(pred_monthly)
+    with col2:
+       col2.write(f"Interactive Line plot Forecasting for the next {months} Months")
+       col2.plotly_chart(fig)
