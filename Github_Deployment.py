@@ -86,7 +86,7 @@ if nav == "Time Series Analysis":
     
     st.title("Time Series Analysis")
     st.subheader(f"Select the Time Series from the drop down list")
-    dropdown = st.selectbox('', ['None','Raw Data "Yearly"','Resampled Data "Monthly"'])
+    dropdown = st.selectbox('', ['Raw Data "Yearly"','Resampled Data "Monthly"'])
     
 
     if dropdown == 'Raw Data "Yearly"':
@@ -301,8 +301,6 @@ if nav == "Time Series Analysis":
                                showlegend=False)
             st.plotly_chart(fig)
 
-    if dropdown == 'None':
-        st.write('Note: "None" is selected')
 
 if nav == "Model Evaluation":
     
