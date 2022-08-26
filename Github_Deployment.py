@@ -50,14 +50,14 @@ visual_1 = pd.read_csv('https://raw.githubusercontent.com/MoinDalvs/CO2_Emission
 
 
 st.sidebar.subheader("Select one of the 'Options' below")
-nav = st.sidebar.radio("",['About Project',"Time Series Analysis","Model Evaluation","Yearly Forecasting", "Monthly Forecasting"])
+nav = st.sidebar.radio("",['About Project',"Yearly Forecasting", "Monthly Forecasting","Time Series Analysis","Model Evaluation"])
 
 if nav == 'About Project':
 
     my_bar = st.progress(0)
 
     for percent_complete in range(100):
-       time.sleep(0.05)
+       time.sleep(0.04)
        my_bar.progress(percent_complete + 1)
 
     st.header(f"Business Objective: To Forecast CO2 levels for an organization so that the organization can follow government norms with respects to CO2 emission levels.")
@@ -634,7 +634,7 @@ if nav == "Monthly Forecasting":
 
     for percent_complete in range(100):
        time.sleep(0.01)
-       
+
     st.title("Forecasting $CO_2$ Emission Monthly")
     
     st.write(f"Note: For Different Results Select different Month from the left sidebar")
