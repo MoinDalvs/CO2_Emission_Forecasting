@@ -1,4 +1,4 @@
-# Forecasting App [![Open in Streamlit](http://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://moindalvs-co2-emission-forecasting-github-deployment-6cjelw.streamlitapp.com/) 👈 Click here!
+# Forecasting App [![Open in Streamlit](http://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://moindalvs-co2-emission-forecasting-final-github-backup-vrz2x6.streamlitapp.com/) 👈 Click here!
 
 # CO2_Emission_Forecasting
 ## Air Quality forecasting(CO2 emissions)   
