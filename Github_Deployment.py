@@ -49,7 +49,7 @@ visual = pd.read_csv('https://raw.githubusercontent.com/MoinDalvs/CO2_Emission_F
 visual_1 = pd.read_csv('https://raw.githubusercontent.com/MoinDalvs/CO2_Emission_Forecasting/main/Data%20set/Visual_CO2_1.csv')
 
 
-st.sidebar.subheader("Select one of the \n\ 'Options' below")
+st.sidebar.subheader("Select one of the \n 'Options' below")
 nav = st.sidebar.radio("",['About',"Yearly Forecasting", "Monthly Forecasting","Time Series Analysis","Model Evaluation"])
 
 st.sidebar.markdown('## About Me\n\
@@ -122,9 +122,9 @@ if nav == 'About':
 \n\
 - 📫 You can reach me on my email id moindalvs@gmail.com\n\
 \n\
-<img align="right" alt="code"  height="400" width="400" src = "https://user-images.githubusercontent.com/94888819/179503858-d2f6d197-7a3f-495b-888c-5a60679bed94.gif"> \
+<img align="right" alt="code"  height="400" width="400" src = "https://user-images.githubusercontent.com/94888819/179503858-d2f6d197-7a3f-495b-888c-5a60679bed94.gif"> \n\
 \n\
-## `Tools:`\
+Tools:\n\
 <img align="left" src="https://user-images.githubusercontent.com/94888819/179538709-781ca826-4b36-42e7-aeda-ad6b07e719ea.png" alt="pp" width="50" height="50" /> </a>\
 <img align="left" alt="Anaconda" height="40" src="https://raw.githubusercontent.com/habc0d3r/images-repo/master/icons8-anaconda.svg" />\
 <img align="left" alt="SQL" height="40" src="https://raw.githubusercontent.com/habc0d3r/0th-project/master/icons8-sql-96.png" /> <b>\
@@ -156,8 +156,6 @@ Connect with me:\
 \n\
 \
 Github Status: \n\
-<p align="center"> <img src="https://komarev.com/ghpvc/?username=MoinDalvs&label=Profile%20views&color=0e75b6&style=circle" alt="MoinDalvs" width="16%" /> </p>\
-<p align="center"> <img src="https://github-readme-stats.vercel.app/api/top-langs?username=MoinDalvs&show_icons=true&theme=tokyonight&locale=en&layout=compact" alt="MoinDalvs" /></p>\
 <p align="center"> <img width="50%" src="https://github-readme-stats.vercel.app/api?username=MoinDalvs&show_icons=true&theme=tokyonight"/> </p>\
 <p align="center"> <img src="http://github-readme-streak-stats.herokuapp.com?user=MoinDalvs&theme=neon-palenight" width="50%"  alt="streak"> </p>\
 <p align="center"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=MoinDalvs&show_icons=true&theme=discord" alt="MoinDalvs" />\
