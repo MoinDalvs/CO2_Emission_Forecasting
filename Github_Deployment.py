@@ -103,7 +103,7 @@ if nav == 'About':
 
     with tab2:
       
-       st.markdown('<img align="center" alt="code"  height="360" width="640" src = "https://user-images.githubusercontent.com/99672298/186088252-ef41cefc-cda7-49e8-960d-efbd59d3696c.jpg">\
+       st.markdown('<img align="center" alt="code"  height="180" width="720" src = "https://user-images.githubusercontent.com/99672298/186088252-ef41cefc-cda7-49e8-960d-efbd59d3696c.jpg">\
 \
 <h1 align="center">Hi 👋, I"m Dalvi Moin</h1>\n\
 <h3 align="center">A passionate Data Science Enthusiast</h3>\n\
@@ -153,8 +153,8 @@ src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350
 </p>\
 \
 <img align="center" alt="code"  height="300" width="600" src = "https://static.wixstatic.com/media/3e99b9_f53a1cab95ae4dfd938a1bf6a1a62f49~mv2.gif">\
-\
-## `Github Status:` \
+\n\
+## Github Status: \n\
 <p align="center"> <img src="https://komarev.com/ghpvc/?username=MoinDalvs&label=Profile%20views&color=0e75b6&style=circle" alt="MoinDalvs" width="16%" /> </p>\
 <p align="center"> <img src="https://github-readme-stats.vercel.app/api/top-langs?username=MoinDalvs&show_icons=true&theme=tokyonight&locale=en&layout=compact" alt="MoinDalvs" /></p>\
 <p align="center"> <img width="50%" src="https://github-readme-stats.vercel.app/api?username=MoinDalvs&show_icons=true&theme=tokyonight"/> </p>\
