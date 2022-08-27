@@ -49,7 +49,7 @@ visual = pd.read_csv('https://raw.githubusercontent.com/MoinDalvs/CO2_Emission_F
 visual_1 = pd.read_csv('https://raw.githubusercontent.com/MoinDalvs/CO2_Emission_Forecasting/main/Data%20set/Visual_CO2_1.csv')
 
 
-st.sidebar.subheader("Select one of the \n 'Options' below")
+st.sidebar.subheader("Select an 'Options' below")
 nav = st.sidebar.radio("",['About',"Yearly Forecasting", "Monthly Forecasting","Time Series Analysis","Model Evaluation"])
 
 st.sidebar.markdown('## About Me\n\
@@ -124,7 +124,9 @@ if nav == 'About':
 \n\
 <img align="right" alt="code"  height="400" width="400" src = "https://user-images.githubusercontent.com/94888819/179503858-d2f6d197-7a3f-495b-888c-5a60679bed94.gif"> \n\
 \n\
+\
 Tools:\n\
+\
 <img align="left" src="https://user-images.githubusercontent.com/94888819/179538709-781ca826-4b36-42e7-aeda-ad6b07e719ea.png" alt="pp" width="50" height="50" /> </a>\
 <img align="left" alt="Anaconda" height="40" src="https://raw.githubusercontent.com/habc0d3r/images-repo/master/icons8-anaconda.svg" />\
 <img align="left" alt="SQL" height="40" src="https://raw.githubusercontent.com/habc0d3r/0th-project/master/icons8-sql-96.png" /> <b>\
