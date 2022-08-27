@@ -52,6 +52,8 @@ visual_1 = pd.read_csv('https://raw.githubusercontent.com/MoinDalvs/CO2_Emission
 st.sidebar.subheader("Select one of the 'Options' below")
 nav = st.sidebar.radio("",['About Project',"Yearly Forecasting", "Monthly Forecasting","Time Series Analysis","Model Evaluation"])
 
+st.sidebar.markdown('## About Me)
+
 if nav == 'About Project':
 
     my_bar = st.progress(0)
@@ -304,9 +306,6 @@ if nav == "Time Series Analysis":
                                hoverlabel=dict(bgcolor="#f2f2f2", font_size=13, font_family="Lato, sans-serif"),
                                showlegend=False)
             st.plotly_chart(fig)
-
-st.sidebar.markdown('## About Me)
-
 
 if nav == "Model Evaluation":
     
