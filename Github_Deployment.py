@@ -67,7 +67,7 @@ st.sidebar.markdown('## About Me\n\
 </p>\
 </td>\
 </tr> \
-  </table>')
+  </table>', unsafe_allow_html=True)
 
 if nav == 'About Project':
 
