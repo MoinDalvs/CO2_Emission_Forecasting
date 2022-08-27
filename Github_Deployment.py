@@ -103,7 +103,7 @@ if nav == 'About':
 
     with tab2:
       
-       st.markdown('<img align="right" alt="code"  height="400" width="360" src = "https://user-images.githubusercontent.com/99672298/186088252-ef41cefc-cda7-49e8-960d-efbd59d3696c.jpg">\
+       st.markdown('<img align="center" alt="code"  height="640" width="360" src = "https://user-images.githubusercontent.com/99672298/186088252-ef41cefc-cda7-49e8-960d-efbd59d3696c.jpg">\
 \
 <h1 align="center">Hi 👋, I"m Dalvi Moin</h1>\n\
 <h3 align="center">A passionate Data Science Enthusiast</h3>\n\
@@ -145,21 +145,21 @@ src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350
 <a href="https://azure.microsoft.com/en-in/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/microsoft_azure/microsoft_azure-icon.svg" alt="azure" width="40" height="40"/> </a>\
 <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="50" height="50"/> </a> </p>\
 \
-## `Connect with me:`\
+## Connect with me:\
 <p align="left">\
 <a href="https://www.linkedin.com/in/moin-dalvi-277b0214a" target="blank"><img align="center" src="https://img.icons8.com/color/344/linkedin-circled--v1.png" alt="MoinDalvs" height="50" width="50" /></a>\
 <a href="https://www.kaggle.com/moindalvi" target="blank"><img align="center" src="https://img.icons8.com/external-tal-revivo-color-tal-revivo/344/external-kaggle-an-online-community-of-data-scientists-and-machine-learners-owned-by-google-logo-color-tal-revivo.png" alt="MoinDalvs" height="40" width="40" /></a>\
 <a href="https://www.youtube.com/channel/UCN7xdRsVxEaaH5H0f3eNNmg" target="blank"><img align="center" src="https://img.icons8.com/color/344/youtube-play.png" alt="MoinDalvs" height="50" width="50" /></a>\
 </p>\
 \
-![Filter Method](https://static.wixstatic.com/media/3e99b9_f53a1cab95ae4dfd938a1bf6a1a62f49~mv2.gif)\
+<img align="center" alt="code"  height="400" width="500" src = "https://static.wixstatic.com/media/3e99b9_f53a1cab95ae4dfd938a1bf6a1a62f49~mv2.gif">\
 \
-### `Read and catch up on content:`\
-- [Gradient Descent article](https://github.com/MoinDalvs/Gradient_Descent_For_beginners/blob/main/README.md) ✍️\
-- [Deep Learning article](https://github.com/MoinDalvs/Neural_Networks_From_Scratch/blob/main/README.md) :books:\
-- [Time_Series_Forecasting article](https://github.com/MoinDalvs/Time_Series_Forecasting_From_Scratch/blob/main/README.md) ✍️\
-- [Gradient_Boosting_Algorithms article](https://github.com/MoinDalvs/Gradient_Boosting_Algorithms_From_Scratch/blob/main/README.md) :books:\
-- [Survival_Analysis article](https://github.com/MoinDalvs/Survival_Analysis_From_Scratch/blob/main/README.md) ✍️\
+### Read and catch up on content:\
+- [Gradient Descent article](https://github.com/MoinDalvs/Gradient_Descent_For_beginners/blob/main/README.md) ✍️\n\
+- [Deep Learning article](https://github.com/MoinDalvs/Neural_Networks_From_Scratch/blob/main/README.md) :books:\n\
+- [Time_Series_Forecasting article](https://github.com/MoinDalvs/Time_Series_Forecasting_From_Scratch/blob/main/README.md) ✍️\n\
+- [Gradient_Boosting_Algorithms article](https://github.com/MoinDalvs/Gradient_Boosting_Algorithms_From_Scratch/blob/main/README.md) :books:\n\
+- [Survival_Analysis article](https://github.com/MoinDalvs/Survival_Analysis_From_Scratch/blob/main/README.md) ✍️\n\
 \
 ## `Github Status:` \
 <p align="center"> <img src="https://komarev.com/ghpvc/?username=MoinDalvs&label=Profile%20views&color=0e75b6&style=circle" alt="MoinDalvs" width="16%" /> </p>\
