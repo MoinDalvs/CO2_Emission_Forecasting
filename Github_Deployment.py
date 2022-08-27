@@ -49,7 +49,7 @@ visual = pd.read_csv('https://raw.githubusercontent.com/MoinDalvs/CO2_Emission_F
 visual_1 = pd.read_csv('https://raw.githubusercontent.com/MoinDalvs/CO2_Emission_Forecasting/main/Data%20set/Visual_CO2_1.csv')
 
 
-st.sidebar.subheader("Select one of the 'Options' below")
+st.sidebar.subheader("Select one of the \n\ 'Options' below")
 nav = st.sidebar.radio("",['About',"Yearly Forecasting", "Monthly Forecasting","Time Series Analysis","Model Evaluation"])
 
 st.sidebar.markdown('## About Me\n\
@@ -145,16 +145,17 @@ src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350
 <a href="https://azure.microsoft.com/en-in/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/microsoft_azure/microsoft_azure-icon.svg" alt="azure" width="40" height="40"/> </a>\
 <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="50" height="50"/> </a> </p>\
 \
-## Connect with me:\
+Connect with me:\
 <p align="left">\
 <a href="https://www.linkedin.com/in/moin-dalvi-277b0214a" target="blank"><img align="center" src="https://img.icons8.com/color/344/linkedin-circled--v1.png" alt="MoinDalvs" height="50" width="50" /></a>\
 <a href="https://www.kaggle.com/moindalvi" target="blank"><img align="center" src="https://img.icons8.com/external-tal-revivo-color-tal-revivo/344/external-kaggle-an-online-community-of-data-scientists-and-machine-learners-owned-by-google-logo-color-tal-revivo.png" alt="MoinDalvs" height="40" width="40" /></a>\
 <a href="https://www.youtube.com/channel/UCN7xdRsVxEaaH5H0f3eNNmg" target="blank"><img align="center" src="https://img.icons8.com/color/344/youtube-play.png" alt="MoinDalvs" height="50" width="50" /></a>\
 </p>\
 \
-<img align="center" alt="code"  height="300" width="600" src = "https://static.wixstatic.com/media/3e99b9_f53a1cab95ae4dfd938a1bf6a1a62f49~mv2.gif">\
+<img align="center" alt="code"  height="300" width="600" src = "https://static.wixstatic.com/media/3e99b9_f53a1cab95ae4dfd938a1bf6a1a62f49~mv2.gif">\n\
 \n\
-## Github Status: \n\
+\
+Github Status: \n\
 <p align="center"> <img src="https://komarev.com/ghpvc/?username=MoinDalvs&label=Profile%20views&color=0e75b6&style=circle" alt="MoinDalvs" width="16%" /> </p>\
 <p align="center"> <img src="https://github-readme-stats.vercel.app/api/top-langs?username=MoinDalvs&show_icons=true&theme=tokyonight&locale=en&layout=compact" alt="MoinDalvs" /></p>\
 <p align="center"> <img width="50%" src="https://github-readme-stats.vercel.app/api?username=MoinDalvs&show_icons=true&theme=tokyonight"/> </p>\
