@@ -305,6 +305,8 @@ if nav == "Time Series Analysis":
                                showlegend=False)
             st.plotly_chart(fig)
 
+st.sidebar.markdown('## About Me)
+
 
 if nav == "Model Evaluation":
     
