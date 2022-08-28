@@ -1,5 +1,7 @@
 # Forecasting App [![Open in Streamlit](http://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://moindalvs-co2-emission-forecasting-final-github-backup-vrz2x6.streamlitapp.com/) 👈 Click here!
 
+<img align="center" alt="code"  height="422" width="800" src = "https://user-images.githubusercontent.com/99672298/187067655-3c80149e-6290-4b27-8dcc-4a3b11d7369d.gif">
+
 # CO2_Emission_Forecasting
 ## Air Quality forecasting(CO2 emissions)   
 ### **`Business Objective:`** To forecast Co2 levels for an organization so that the organization can follow government norms with respect to Co2 emission levels.  
