@@ -49,7 +49,7 @@ visual = pd.read_csv('https://raw.githubusercontent.com/MoinDalvs/CO2_Emission_F
 visual_1 = pd.read_csv('https://raw.githubusercontent.com/MoinDalvs/CO2_Emission_Forecasting/main/Data%20set/Visual_CO2_1.csv')
 
 
-st.sidebar.subheader("Select an ⭕Option below")
+st.sidebar.subheader("Select an '⭕' Option below")
 nav = st.sidebar.radio("",['About',"Yearly Forecasting", "Monthly Forecasting","Time Series Analysis","Model Evaluation"])
 
 if nav == 'About':
