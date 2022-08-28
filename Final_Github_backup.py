@@ -556,7 +556,7 @@ if nav == "Model Evaluation":
 
 
         with tab2:
-            st.write(f'Splitting Train and Test Data on Raw data. Leaving Test Data with 5 Years of Time Series. We are going to forecast for the last 5 years, that is from 1994 to 2014.')
+            st.write(f'Splitting Train and Test Data on Raw data. Leaving Test Data with 5 Years of Time Series. We are going to forecast for the last 5 years, that is from 2010 to 2014.')
 
             train_data.CO2.plot(legend=True,label='TRAIN',color='green')
             test_data.CO2.plot(legend=True,label='TEST', figsize=(18,6),color='red')
