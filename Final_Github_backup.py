@@ -60,7 +60,7 @@ if nav == 'About':
        time.sleep(0.02)
        my_bar.progress(percent_complete + 1)
     
-    st.sidebar.markdown('## Project By\n\
+    st.sidebar.markdown('### Project By\n\
 <table>\
 <tr>\
 <td>\
