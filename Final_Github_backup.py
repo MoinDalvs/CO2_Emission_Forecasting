@@ -20,6 +20,14 @@ from statsmodels.tsa.seasonal import seasonal_decompose
 st.set_option('deprecation.showPyplotGlobalUse', False)
 import time
 
+selected = option_menu(
+    menu_title = None,
+    options = ['About', 'Yearly Forecasting', 'Monthly Forecasting', 'Time Series Analysis', 'Model Evaluation'],
+    icons =["house", "graph-up-arrow","graph-down-arrow","bar-chart","check2-circle"],
+    menu_icon='cast',
+    default_index=0,
+    orientation='vertical',)
+
 # load the model from the disk
 mfile = BytesIO(requests.get('https://github.com/MoinDalvs/CO2_Emission_Forecasting/blob/main/CO2_Forecast_arima_yearly.pkl?raw=true').content)
 yearly_model = load(mfile)
