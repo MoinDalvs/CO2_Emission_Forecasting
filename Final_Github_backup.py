@@ -57,11 +57,7 @@ resampled_data=pd.read_csv('https://raw.githubusercontent.com/MoinDalvs/CO2_Emis
 visual = pd.read_csv('https://raw.githubusercontent.com/MoinDalvs/CO2_Emission_Forecasting/main/Data%20set/Visual_CO2.csv')
 visual_1 = pd.read_csv('https://raw.githubusercontent.com/MoinDalvs/CO2_Emission_Forecasting/main/Data%20set/Visual_CO2_1.csv')
 
-
-st.sidebar.subheader("Select an Option below")
-nav = st.sidebar.radio("",['About',"Yearly Forecasting", "Monthly Forecasting","Time Series Analysis","Model Evaluation"])
-
-if nav == 'About':
+if selected == 'About':
 
     my_bar = st.progress(0)
 
@@ -185,7 +181,7 @@ Github Status: \n\
 \
 **<h2>♡ Thank you for taking the time ♡**', unsafe_allow_html=True)
 
-if nav == "Time Series Analysis":
+if selected == "Time Series Analysis":
 
     my_bar = st.progress(0)
 
@@ -410,7 +406,7 @@ if nav == "Time Series Analysis":
                                showlegend=False)
             st.plotly_chart(fig)
 
-if nav == "Model Evaluation":
+if selected == "Model Evaluation":
     
     my_bar = st.progress(0)
 
@@ -666,7 +662,7 @@ if nav == "Model Evaluation":
             # Displaying Chart
             st.pyplot()
 
-if nav == "Yearly Forecasting":
+if selected == "Yearly Forecasting":
 
     my_bar = st.progress(0)
 
@@ -728,7 +724,7 @@ if nav == "Yearly Forecasting":
        col2.plotly_chart(fig)
 
 
-if nav == "Monthly Forecasting":
+if selected == "Monthly Forecasting":
 
     my_bar = st.progress(0)
 
