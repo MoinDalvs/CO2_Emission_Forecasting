@@ -26,7 +26,7 @@ def add_bg_image():
           f"""
           <style>
          .stApp {{
-             background-image: url("https://img.freepik.com/free-vector/white-background-with-shiny-lines-design_1017-28446.jpg?w=1380&t=st=1663209251~exp=1663209851~hmac=bda43eed4f9c8147be4e5330bc5dc10c8cfb1994620e14cc07d32edf4a150346");
+             background-image: url("https://img.freepik.com/free-photo/gray-abstract-wireframe-technology-background_53876-101941.jpg?w=1380&t=st=1663209412~exp=1663210012~hmac=072c2d9af83584a1ef61d35b3ee07b39d597b1e6e6cce8edabd8798ac6aaeb79");
              background-attachment: fixed;
              background-size: cover
          }}
