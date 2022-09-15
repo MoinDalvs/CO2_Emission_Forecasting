@@ -21,6 +21,21 @@ from statsmodels.tsa.seasonal import seasonal_decompose
 st.set_option('deprecation.showPyplotGlobalUse', False)
 import time
 
+def add_bg_image():
+    st.markdown(
+          f"""
+          <style>
+         .stApp {{
+             background-image: url("https://img.freepik.com/free-vector/abstract-background-with-squares_23-2148995948.jpg?w=1380&t=st=1663209042~exp=1663209642~hmac=b59e3e388cc1b3fdcd82b5b3941ec55970691471ae05f96bf09f5039d86dacae");
+             background-attachment: fixed;
+             background-size: cover
+         }}
+         </style>
+         """,
+         unsafe_allow_html=True)
+     
+add_bg_image()
+
 selected = option_menu(
     menu_title = None,
     options = ['About', 'Yearly Forecasting', 'Monthly Forecasting', 'Time Series Analysis', 'Model Evaluation'],
