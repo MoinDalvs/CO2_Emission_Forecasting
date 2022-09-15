@@ -21,20 +21,20 @@ from statsmodels.tsa.seasonal import seasonal_decompose
 st.set_option('deprecation.showPyplotGlobalUse', False)
 import time
 
-def add_bg_image():
-    st.markdown(
-          f"""
-          <style>
-         .stApp {{
-             background-image: url("https://thumbs.gfycat.com/EmbarrassedWelldocumentedIraniangroundjay-max-1mb.gif");
-             background-attachment: fixed;
-             background-size: cover
-         }}
-         </style>
-         """,
-         unsafe_allow_html=True)
+# def add_bg_image():
+#     st.markdown(
+#           f"""
+#           <style>
+#          .stApp {{
+#              background-image: url("https://thumbs.gfycat.com/EmbarrassedWelldocumentedIraniangroundjay-max-1mb.gif");
+#              background-attachment: fixed;
+#              background-size: cover
+#          }}
+#          </style>
+#          """,
+#          unsafe_allow_html=True)
      
-add_bg_image()
+# add_bg_image()
 
 selected = option_menu(
     menu_title = None,
