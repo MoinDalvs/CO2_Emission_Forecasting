@@ -101,6 +101,8 @@ if selected == 'About':
     
     with tab1:
 
+       st.markdown('<img align="right" alt="code"  height="500" width="300" src = "https://reason.agency/assets/img/scroll-b.gif">', unsafe_allow_html=True)
+
        st.header(f"Business Objective: To Forecast CO2 levels for an organization so that the organization can follow government norms with respects to CO2 emission levels.")
 
        st.write(f"Note: Select other options from the left sidebar")
@@ -120,6 +122,8 @@ if selected == 'About':
 \
 ##### 1.) Minimum error\n\
 ##### 2.) Low bias and low variance trade off')
+
+       st.markdown('<img align="right" alt="code"  height="200" width="200" src = "https://static.wixstatic.com/media/15e6c3_8f8cac375de143dc9d1d552090d975cf~mv2.gif">', unsafe_allow_html=True)
 
     with tab2:
       
