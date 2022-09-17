@@ -129,7 +129,7 @@ if selected == 'About':
 <img align="center" alt="code"  height="300" width="200" src = "https://reason.agency/assets/img/scroll-b.gif">\n\
 <h1 align="center">Hi 👋, I"m Dalvi Moin</h1>\n\
 <h3 align="center">A passionate Data Science Enthusiast</h3>\n\
-\
+\n\
 - 🌱 I love learning as a process and mostly about new things...\n\
 \n\
 - 🔭 I’m currently working as an Intern at <a href="https://aivariant.com/" target="blank"><img align="center" src="https://www.aivariant.com/wp-content/uploads/2021/01/ai_logo5_2-1.png" alt="MoinDalvs" height="25" width="70" /></a>\n\
