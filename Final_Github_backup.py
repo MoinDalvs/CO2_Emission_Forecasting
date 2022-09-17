@@ -34,7 +34,7 @@ def add_bg_image():
          """,
          unsafe_allow_html=True)
      
-# add_bg_image()
+add_bg_image()
 
 selected = option_menu(
     menu_title = None,
