@@ -120,7 +120,7 @@ if selected == 'About':
 ##### 1.) Minimum error\n\
 ##### 2.) Low bias and low variance trade off')
 
-       st.markdown('<img align="center" alt="code"  height="200" width="200" src = "https://static.wixstatic.com/media/15e6c3_8f8cac375de143dc9d1d552090d975cf~mv2.gif">', unsafe_allow_html=True)
+       st.markdown('<img align="center" alt="code"  height="200" width="100" src = "https://static.wixstatic.com/media/15e6c3_8f8cac375de143dc9d1d552090d975cf~mv2.gif">', unsafe_allow_html=True)
 
     with tab2:
       
@@ -128,6 +128,7 @@ if selected == 'About':
 \
 <h1 align="center">Hi 👋, I"m Dalvi Moin</h1>\n\
 <h3 align="center">A passionate Data Science Enthusiast</h3>\n\
+<img align="center" alt="code"  height="300" width="200" src = "https://reason.agency/assets/img/scroll-b.gif">\n\
 \n\
 - 🌱 I love learning as a process and mostly about new things...\n\
 \n\
@@ -195,7 +196,8 @@ Github Status: \n\
             letter-spacing:0.1px;\
             padding: 0.1em;">\
 \
-**<h2>♡ Thank you for taking the time ♡**', unsafe_allow_html=True)
+**<h2>♡ Thank you for taking the time ♡**\n\
+<img align="center" alt="code"  height="200" width="100" src = "https://static.wixstatic.com/media/15e6c3_8f8cac375de143dc9d1d552090d975cf~mv2.gif">', unsafe_allow_html=True)
 
 if selected == "Time Series Analysis":
 
