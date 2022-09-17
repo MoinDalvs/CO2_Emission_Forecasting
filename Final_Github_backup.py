@@ -102,7 +102,7 @@ if selected == 'About':
     with tab1:
        st.header(f"Business Objective: To Forecast CO2 levels for an organization so that the organization can follow government norms with respects to CO2 emission levels.")
 
-       st.markdown('<img align="center" alt="code"  height="500" width="300" src = "https://reason.agency/assets/img/scroll-b.gif">', unsafe_allow_html=True)
+       st.markdown('<img align="center" alt="code"  height="300" width="200" src = "https://reason.agency/assets/img/scroll-b.gif">', unsafe_allow_html=True)
 
        st.image("https://geographical.co.uk/wp-content/uploads/carbon-dioxide-emissions-title-1200x800.jpg")
 
