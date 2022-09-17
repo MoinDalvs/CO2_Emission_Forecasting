@@ -120,7 +120,7 @@ if selected == 'About':
 ##### 1.) Minimum error\n\
 ##### 2.) Low bias and low variance trade off')
 
-       st.markdown('<img align="center" alt="code"  height="200" width="100" src = "https://static.wixstatic.com/media/15e6c3_8f8cac375de143dc9d1d552090d975cf~mv2.gif">', unsafe_allow_html=True)
+       st.markdown('<img align="center" alt="code"  height="300" width="200" src = "https://static.wixstatic.com/media/15e6c3_8f8cac375de143dc9d1d552090d975cf~mv2.gif">', unsafe_allow_html=True)
 
     with tab2:
       
@@ -196,8 +196,9 @@ Github Status: \n\
             letter-spacing:0.1px;\
             padding: 0.1em;">\
 \
-**<h2>♡ Thank you for taking the time ♡**\n\
-<img align="center" alt="code"  height="200" width="100" src = "https://static.wixstatic.com/media/15e6c3_8f8cac375de143dc9d1d552090d975cf~mv2.gif">', unsafe_allow_html=True)
+**<h2>♡ Thank you for taking the time ♡**\
+\n\
+<img align="center" alt="code"  height="300" width="200" src = "https://static.wixstatic.com/media/15e6c3_8f8cac375de143dc9d1d552090d975cf~mv2.gif">', unsafe_allow_html=True)
 
 if selected == "Time Series Analysis":
 
