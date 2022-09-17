@@ -100,12 +100,9 @@ if selected == 'About':
     tab1, tab2 = st.tabs(["💾 About Project","🦸‍♂️ About Me"])
     
     with tab1:
-
-       st.markdown('<img align="right" alt="code"  height="500" width="300" src = "https://reason.agency/assets/img/scroll-b.gif">', unsafe_allow_html=True)
-
        st.header(f"Business Objective: To Forecast CO2 levels for an organization so that the organization can follow government norms with respects to CO2 emission levels.")
 
-       st.write(f"Note: Select other options from the left sidebar")
+       st.markdown('<img align="right" alt="code"  height="500" width="300" src = "https://reason.agency/assets/img/scroll-b.gif">', unsafe_allow_html=True)
 
        st.image("https://geographical.co.uk/wp-content/uploads/carbon-dioxide-emissions-title-1200x800.jpg")
 
