@@ -189,7 +189,7 @@ Connect with me:\
 <a href="https://www.youtube.com/channel/UCN7xdRsVxEaaH5H0f3eNNmg" target="blank"><img align="center" src="https://img.icons8.com/color/344/youtube-play.png" alt="MoinDalvs" height="50" width="50" /></a>\
 </p>\
 \
-<img align="center" alt="code"  height="400" width="800" src = "https://static.wixstatic.com/media/3e99b9_f53a1cab95ae4dfd938a1bf6a1a62f49~mv2.gif">\n\
+<img align="center" alt="code"  height="350" width="750" src = "https://static.wixstatic.com/media/3e99b9_f53a1cab95ae4dfd938a1bf6a1a62f49~mv2.gif">\n\
 \n\
 \
 Github Status: \n\
