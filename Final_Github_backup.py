@@ -533,48 +533,50 @@ if selected == "Model Evaluation":
 
             # Accuracy vs Error Rate
 
-            plt.figure(figsize=(16,8)) 
-            # Setting size in Chart based on 
-            # given values
-            Error_Rate = np.mean(APE[size:])
-            Accuracy = 100-np.mean(APE[size:])
-            sizes = [Accuracy, Error_Rate]
-              
-            # Setting labels for items in Chart
-            labels = ['Accuracy', 'Error']
-              
-            # colors
-            colors = ['#007500', '#FF0000']
-              
-            # explosion
-            explode = (0.0, 0.05)
-              
-            # Pie Chart
-            plt.pie(sizes, colors=colors, labels=labels,
-                    autopct='%1.1f%%', shadow=True,
-                    pctdistance=0.85, 
-                    explode=explode,
-                    startangle=0.0,
-                    textprops = {'size':'x-large',
-                               'fontweight':'bold',
-                                'rotation':'0.0',
-                               'color':'black'})
-              
-            # draw circle
-            centre_circle = plt.Circle((0.0, 0.0), 0.70, fc='white')
-            fig = plt.gcf()
-              
-            # Adding Circle in Pie chart
-            fig.gca().add_artist(centre_circle)
+            st.image('https://github.com/MoinDalvs/CO2_Emission_Forecasting/blob/main/Github/accuracy_raw.png?raw=true')
 
-            # Adding Title of chart
-            plt.title('ARIMA Model \n Accuracy and Error Rate \n on Test Data', fontsize = 16, fontweight = 'bold')
+            # plt.figure(figsize=(16,8)) 
+            # # Setting size in Chart based on 
+            # # given values
+            # Error_Rate = np.mean(APE[size:])
+            # Accuracy = 100-np.mean(APE[size:])
+            # sizes = [Accuracy, Error_Rate]
               
-            # Add Legends
-            plt.legend(labels, loc="upper right")
+            # # Setting labels for items in Chart
+            # labels = ['Accuracy', 'Error']
               
-            # Displaying Chart
-            st.pyplot()
+            # # colors
+            # colors = ['#007500', '#FF0000']
+              
+            # # explosion
+            # explode = (0.0, 0.05)
+              
+            # # Pie Chart
+            # plt.pie(sizes, colors=colors, labels=labels,
+            #         autopct='%1.1f%%', shadow=True,
+            #         pctdistance=0.85, 
+            #         explode=explode,
+            #         startangle=0.0,
+            #         textprops = {'size':'x-large',
+            #                    'fontweight':'bold',
+            #                     'rotation':'0.0',
+            #                    'color':'black'})
+              
+            # # draw circle
+            # centre_circle = plt.Circle((0.0, 0.0), 0.70, fc='white')
+            # fig = plt.gcf()
+              
+            # # Adding Circle in Pie chart
+            # fig.gca().add_artist(centre_circle)
+
+            # # Adding Title of chart
+            # plt.title('ARIMA Model \n Accuracy and Error Rate \n on Test Data', fontsize = 16, fontweight = 'bold')
+              
+            # # Add Legends
+            # plt.legend(labels, loc="upper right")
+              
+            # # Displaying Chart
+            # st.pyplot()
 
     if radios == "Monthly Model":
         
