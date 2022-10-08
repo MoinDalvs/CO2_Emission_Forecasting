@@ -447,7 +447,7 @@ if selected == "Model Evaluation":
     my_bar = st.progress(0)
 
     for percent_complete in range(100):
-       time.sleep(0.09)
+       time.sleep(0.05)
        my_bar.progress(percent_complete + 1)
     
 
@@ -479,35 +479,21 @@ if selected == "Model Evaluation":
 
             st.image('https://github.com/MoinDalvs/CO2_Emission_Forecasting/blob/main/Github/train_test_split_raw.png?raw=true')
 
-            # train_data.CO2.plot(legend=True,label='TRAIN',color='green')
-            # test_data.CO2.plot(legend=True,label='TEST', figsize=(18,6),color='red')
-            # plt.xlabel('Year', fontsize= 12)
-            # plt.legend()
-            # st.pyplot()
-
             st.image('https://github.com/MoinDalvs/CO2_Emission_Forecasting/blob/main/Github/test_data_raw.png?raw=true')
 
-            # plt.figure(figsize=(16,4))
-            # test_data.CO2.plot(label="org")
-            # plt.title("Test data Series", fontsize=14)
-            # st.pyplot()
-
             st.image('https://github.com/MoinDalvs/CO2_Emission_Forecasting/blob/main/Github/moving_average_raw.png?raw=true')
-
-            # plt.figure(figsize=(16,4))
-            # test_data["CO2"].rolling(5).mean().plot(label=str(5))
-            # plt.title("Moving Average "+str(5), fontsize=14)
-            # plt.legend(loc='best')
-            # st.pyplot()
 
         with tab3:
 
             # Testing vs forecasted 
-            plt.figure(figsize=(12,6), dpi=200)
-            plt.plot(test_data, label='Test')
-            plt.plot(pred, label='Auto regression forecast (ARIMA)')
-            plt.legend(loc='best')
-            st.pyplot()
+
+            st.image('https://github.com/MoinDalvs/CO2_Emission_Forecasting/blob/main/Github/predicted_data_raw.png?raw=true')
+
+            # plt.figure(figsize=(12,6), dpi=200)
+            # plt.plot(test_data, label='Test')
+            # plt.plot(pred, label='Auto regression forecast (ARIMA)')
+            # plt.legend(loc='best')
+            # st.pyplot()
 
         with tab5:
             #Calculating Absolute Percent Error and Error
@@ -524,17 +510,19 @@ if selected == "Model Evaluation":
                 y_hat_ar
             with col2:
                 #Visualizing the Relationship between the Actual and Predicted ValuesModel Validation
-                plt.figure(figsize=(12,8))
-                plt.xlabel("Actual Values", fontsize =12)
-                plt.ylabel("Predicted values", fontsize =12)
-                plt.title("The Scatterplot of Relationship between Actual Values and Predictions", fontsize =16, fontweight = 'bold')
-                plt.scatter(y_hat_ar['CO2'], y_hat_ar['arima_forecast'])
-                st.pyplot()
+                st.image('https://github.com/MoinDalvs/CO2_Emission_Forecasting/blob/main/Github/predicted_vs_actual_raw.png?raw=true')
+               #  plt.figure(figsize=(12,8))
+               #  plt.xlabel("Actual Values", fontsize =12)
+               #  plt.ylabel("Predicted values", fontsize =12)
+               #  plt.title("The Scatterplot of Relationship between Actual Values and Predictions", fontsize =16, fontweight = 'bold')
+               #  plt.scatter(y_hat_ar['CO2'], y_hat_ar['arima_forecast'])
+               #  st.pyplot()
 
         with tab4:
             # Error Evaluation
-            yearly_model_test.plot_diagnostics(figsize=(16,8))
-            st.pyplot()
+            st.image('https://github.com/MoinDalvs/CO2_Emission_Forecasting/blob/main/Github/error_raw_data.png?raw=true')
+            # yearly_model_test.plot_diagnostics(figsize=(16,8))
+            # st.pyplot()
 
         with tab1:
 
