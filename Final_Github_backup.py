@@ -539,30 +539,40 @@ if selected == "Model Evaluation":
         with tab2:
             st.write(f'Splitting Train and Test Data on Raw data. Leaving Test Data with 5 Years of Time Series. We are going to forecast for the last 5 years, that is from 2010 to 2014.')
 
-            train_data.CO2.plot(legend=True,label='TRAIN',color='green')
-            test_data.CO2.plot(legend=True,label='TEST', figsize=(18,6),color='red')
-            plt.xlabel('Year', fontsize= 12)
-            plt.legend()
-            st.pyplot()
+            st.image('https://github.com/MoinDalvs/CO2_Emission_Forecasting/blob/main/Github/train_test_split_interpolation.png?raw=true')
 
-            plt.figure(figsize=(16,4))
-            test_data.CO2.plot(label="org")
-            plt.title("Test data Series", fontsize=14)
-            st.pyplot()
-            plt.figure(figsize=(16,4))
-            test_data["CO2"].rolling(5).mean().plot(label=str(5))
-            plt.title("Moving Average "+str(5), fontsize=14)
-            plt.legend(loc='best')
-            st.pyplot()
+            # train_data.CO2.plot(legend=True,label='TRAIN',color='green')
+            # test_data.CO2.plot(legend=True,label='TEST', figsize=(18,6),color='red')
+            # plt.xlabel('Year', fontsize= 12)
+            # plt.legend()
+            # st.pyplot()
+
+            st.image('https://github.com/MoinDalvs/CO2_Emission_Forecasting/blob/main/Github/test_data_interpolation.png?raw=true')
+
+            # plt.figure(figsize=(16,4))
+            # test_data.CO2.plot(label="org")
+            # plt.title("Test data Series", fontsize=14)
+            # st.pyplot()
+
+            st.image('https://github.com/MoinDalvs/CO2_Emission_Forecasting/blob/main/Github/moving_average_interpolation.png?raw=true')
+
+            # plt.figure(figsize=(16,4))
+            # test_data["CO2"].rolling(5).mean().plot(label=str(5))
+            # plt.title("Moving Average "+str(5), fontsize=14)
+            # plt.legend(loc='best')
+            # st.pyplot()
 
         with tab3:
 
             # Testing vs forecasted 
-            plt.figure(figsize=(12,6), dpi=200)
-            plt.plot(test_data, label='Test')
-            plt.plot(pred, label='Auto regression forecast (ARIMA)')
-            plt.legend(loc='best')
-            st.pyplot()
+
+            st.image('https://github.com/MoinDalvs/CO2_Emission_Forecasting/blob/main/Github/predicted_data_interpolation.png?raw=true')
+
+            # plt.figure(figsize=(12,6), dpi=200)
+            # plt.plot(test_data, label='Test')
+            # plt.plot(pred, label='Auto regression forecast (ARIMA)')
+            # plt.legend(loc='best')
+            # st.pyplot()
 
         with tab5:
             #Calculating Absolute Percent Error and Error
@@ -579,64 +589,72 @@ if selected == "Model Evaluation":
                 y_hat_ar
             with col2:
                 #Visualizing the Relationship between the Actual and Predicted ValuesModel Validation
-                plt.figure(figsize=(12,8))
-                plt.xlabel("Actual Values", fontsize =12)
-                plt.ylabel("Predicted values", fontsize =12)
-                plt.title("The Scatterplot of Relationship between Actual Values and Predictions", fontsize =16, fontweight = 'bold')
-                plt.scatter(y_hat_ar['CO2'], y_hat_ar['arima_forecast'])
-                st.pyplot()
+
+                st.image('https://github.com/MoinDalvs/CO2_Emission_Forecasting/blob/main/Github/predicted_vs_actual_interpolation.png?raw=true')
+
+               #  plt.figure(figsize=(12,8))
+               #  plt.xlabel("Actual Values", fontsize =12)
+               #  plt.ylabel("Predicted values", fontsize =12)
+               #  plt.title("The Scatterplot of Relationship between Actual Values and Predictions", fontsize =16, fontweight = 'bold')
+               #  plt.scatter(y_hat_ar['CO2'], y_hat_ar['arima_forecast'])
+               #  st.pyplot()
 
         with tab4:
             # Error Evaluation
-            monthly_model_test.plot_diagnostics(figsize=(16,8))
-            st.pyplot()
+
+            st.image('https://github.com/MoinDalvs/CO2_Emission_Forecasting/blob/main/Github/error_interpolation.png?raw=true')
+
+            # monthly_model_test.plot_diagnostics(figsize=(16,8))
+            # st.pyplot()
 
         with tab1:
 
             # Accuracy vs Error Rate
 
-            plt.figure(figsize=(12,8)) 
-            # Setting size in Chart based on 
-            # given values
-            Error_Rate = np.mean(APE[size:])
-            Accuracy = 100-np.mean(APE[size:])
-            sizes = [Accuracy, Error_Rate]
-              
-            # Setting labels for items in Chart
-            labels = ['Accuracy', 'Error']
-              
-            # colors
-            colors = ['#007500', '#FF0000']
-              
-            # explosion
-            explode = (0.0, 0.05)
-              
-            # Pie Chart
-            plt.pie(sizes, colors=colors, labels=labels,
-                    autopct='%1.1f%%', shadow=True,
-                    pctdistance=0.85, 
-                    explode=explode,
-                    startangle=0.0,
-                    textprops = {'size':'large',
-                               'fontweight':'bold',
-                                'rotation':'0.0',
-                               'color':'black'})
-              
-            # draw circle
-            centre_circle = plt.Circle((0.0, 0.0), 0.70, fc='white')
-            fig = plt.gcf()
-              
-            # Adding Circle in Pie chart
-            fig.gca().add_artist(centre_circle)
+            st.image('https://github.com/MoinDalvs/CO2_Emission_Forecasting/blob/main/Github/accuracy_interpolation.png?raw=true')
 
-            # Adding Title of chart
-            plt.title('ARIMA Model \n Accuracy and Error Rate \n on Test Data', fontsize = 16, fontweight = 'bold')
+            # plt.figure(figsize=(12,8)) 
+            # # Setting size in Chart based on 
+            # # given values
+            # Error_Rate = np.mean(APE[size:])
+            # Accuracy = 100-np.mean(APE[size:])
+            # sizes = [Accuracy, Error_Rate]
               
-            # Add Legends
-            plt.legend(labels, loc="upper right")
+            # # Setting labels for items in Chart
+            # labels = ['Accuracy', 'Error']
               
-            # Displaying Chart
-            st.pyplot()
+            # # colors
+            # colors = ['#007500', '#FF0000']
+              
+            # # explosion
+            # explode = (0.0, 0.05)
+              
+            # # Pie Chart
+            # plt.pie(sizes, colors=colors, labels=labels,
+            #         autopct='%1.1f%%', shadow=True,
+            #         pctdistance=0.85, 
+            #         explode=explode,
+            #         startangle=0.0,
+            #         textprops = {'size':'large',
+            #                    'fontweight':'bold',
+            #                     'rotation':'0.0',
+            #                    'color':'black'})
+              
+            # # draw circle
+            # centre_circle = plt.Circle((0.0, 0.0), 0.70, fc='white')
+            # fig = plt.gcf()
+              
+            # # Adding Circle in Pie chart
+            # fig.gca().add_artist(centre_circle)
+
+            # # Adding Title of chart
+            # plt.title('ARIMA Model \n Accuracy and Error Rate \n on Test Data', fontsize = 16, fontweight = 'bold')
+              
+            # # Add Legends
+            # plt.legend(labels, loc="upper right")
+              
+            # # Displaying Chart
+            # st.pyplot()
 
 if selected == "Yearly Forecasting":
 
