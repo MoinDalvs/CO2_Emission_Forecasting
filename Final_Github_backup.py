@@ -161,6 +161,10 @@ if selected == 'About':
 \n\
 - 📫 You can reach me on my email id moindalvs@gmail.com\n\
 \n\
+## Projects:\
+\n\
+# Resume Screening and Parser [![Open in Streamlit](http://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://moindalvs-resume-upload-containter-resume-classification-kflzeg.streamlitapp.com/)\
+\n\
 <img align="right" alt="code"  height="400" width="400" src = "https://user-images.githubusercontent.com/94888819/179503858-d2f6d197-7a3f-495b-888c-5a60679bed94.gif"> \n\
 \
 <img align="left" src="https://user-images.githubusercontent.com/94888819/179538709-781ca826-4b36-42e7-aeda-ad6b07e719ea.png" alt="pp" width="50" height="50" /> </a>\
